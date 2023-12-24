@@ -8,6 +8,11 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hello Dale!</h1>
         <p>
+          Select your color
+          <script src="jscolor.js"></script>
+          Color: <input value="#3399FF80" data-jscolor="{}"></input>
+        </p>
+        <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
